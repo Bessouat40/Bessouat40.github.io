@@ -1,0 +1,39 @@
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
+
+.card {
+  flex: 0 1 70%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #a6b0ad;
+}
+
+@media (min-width: 600px) {
+  .card {
+    max-width: calc(50% - 20px);
+  }
+}
+
+.video-card {
+  padding-top: 10px;
+  width: 80%;
+  height: auto;
+}
