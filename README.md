@@ -5,4 +5,4 @@ The style is very simple.
 
 ## Preview
 
-![alt text](./assets/preview.png)
+![alt text](./media/preview.png)
